@@ -205,6 +205,15 @@ const payments = [
   
   // 12. * Calculate the total sum of payment amounts made by each student. We need to return an array that contains a list of information about students, including the total paid amount by the student.
   // Հաշվել յուրաքանչյուր ուսանողի կողմից վճարված ամբողջ գումարը։ Անհրաժեշտ է վերադարձնել ուսանողների ցուցակը (array), որը ընդգրկում է ուսանողների տվյալները, նեռարյալ ուսանողի կողմից ամբողջ վճարված գումարը։
+// function studentsPaymentTotal(obj) {
+  //   return obj.reduce((prev, curr) => {
+  //     if (prev[curr.studentName]) {
+  //       prev[curr.studentName] += curr.payedAmount;
+  //     } else {
+  //       prev[curr.studentName] = curr.payedAmount;
+  //     }
+  //     return prev;
+  //   }, []);
+  // }
   
-
-  alert("xkjix")
+  // console.log(studentsPaymentTotal(payments));
